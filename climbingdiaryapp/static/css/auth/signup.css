@@ -1,0 +1,61 @@
+.gradient-custom-3 {
+  background: hsla(105, 13%, 53%, 1);
+
+  background: linear-gradient(180deg, hsla(105, 13%, 48%, 1) 0%, hsla(105, 13%, 30%, 1) 100%);
+
+  background: -moz-linear-gradient(180deg, hsla(105, 13%, 48%, 1) 0%, hsla(105, 13%, 30%, 1) 100%);
+
+  background: -webkit-linear-gradient(180deg, hsla(105, 13%, 48%, 1) 0%, hsla(105, 13%, 30%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#809778", endColorstr="#677C60", GradientType=1 );
+}
+
+.signup-form-label {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.fieldWrapper input {
+  height: 36px !important;
+  border-width: 1px !important;
+  border-color: lightgray !important;
+  border-style: solid !important;
+  border-radius: 5px !important;
+}
+
+.fieldWrapper {
+  float: right !important;
+  margin: 10px 80px 10px 0vw;
+}
+
+@media (min-width: 551px) {
+  .fieldWrapper {
+    float: right !important;
+  margin: 10px 8vw 10px 0vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .fieldWrapper {
+    float: right !important;
+    display: flex !important;
+    margin: 0;
+    flex-direction: column !important;
+  }
+  .fieldWrapper input {
+    height: 32px !important;
+    border-width: 1px !important;
+    border-color: lightgray !important;
+    border-style: solid !important;
+    border-radius: 5px !important;
+  }
+  .signup-form-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.signup-form-container {
+  width: 100%;
+  height: 300px;
+}

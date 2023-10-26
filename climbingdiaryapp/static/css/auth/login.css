@@ -1,0 +1,53 @@
+body {
+  height: 100vh !important;
+}
+
+.gradient-custom-2 {
+  background: hsla(105, 13%, 53%, 1);
+
+  background: linear-gradient(180deg, hsla(105, 13%, 53%, 1) 0%, hsla(105, 13%, 40%, 1) 100%);
+
+  background: -moz-linear-gradient(180deg, hsla(105, 13%, 53%, 1) 0%, hsla(105, 13%, 40%, 1) 100%);
+
+  background: -webkit-linear-gradient(180deg, hsla(105, 13%, 53%, 1) 0%, hsla(105, 13%, 40%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#809778", endColorstr="#677C60", GradientType=1 );
+}
+
+
+  
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+table {
+  border-collapse: separate !important;
+  border-spacing:0 10px !important;
+}
+
+table th {
+  font-weight: 400 !important;
+  padding-right: 15px !important;
+}
+
+table input {
+  height: 36px !important;
+  border-width: 1px !important;
+  border-color: lightgray !important;
+  border-style: solid !important;
+  border-radius: 5px !important;
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+.h3-container {
+  height: 4vh;
+  width: auto;
+}
